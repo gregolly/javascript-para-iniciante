@@ -48,3 +48,7 @@ console.log(comida);
  console.log(address);
  ```
 
+# Tipos de dados
+
+Existem 7 tipos de dados no javascript, `string`, `number`, `booelan`, `undefined`, `null`, `symbol`, `object`. Todos são primitivos execetos os objetovs.(primitos são dados imutáveis.)
+

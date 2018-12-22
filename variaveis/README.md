@@ -52,3 +52,15 @@ console.log(comida);
 
 Existem 7 tipos de dados no javascript, `string`, `number`, `booelan`, `undefined`, `null`, `symbol`, `object`. Todos são primitivos execetos os objetovs.(primitos são dados imutáveis.)
 
+# Funções
+
+Parametros você passa na criação da função e argumentos você passa na execução da função.
+
+---
+
+function imc(altura, peso) { parametros
+  var imc = peso / (altura * altura); 
+  return imc;
+}
+
+console.log(imc(1.9, 104)); argumentos

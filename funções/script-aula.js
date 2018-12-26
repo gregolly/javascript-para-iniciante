@@ -11,7 +11,7 @@ function imc(altura, peso) {
 }
 
 console.log(imc(1.9, 104));
-
+*/
 
 function corFavorita(cor) {
   if(cor === 'azul'){
@@ -54,40 +54,3 @@ function faltaVisitar(paisesvisitados) {
 }
 
 console.log(totalPaises);
-*/
-
-
-// exercicios da aula
-var nomeExercicio = 'joaquim';
-function RetornaT() {
-  if (nomeExercicio = 'joaquim');
-  return true;
-}
-console.log(RetornaT());
-
-function perimetroQuadrado(lado) {
-  const MultQuadrados = (lado * 4);
-  console.log(MultQuadrados);
-}
-perimetroQuadrado(20);
-
-function nomeCompleto(nome, sobrenome) {
-  return nome + ' ' + sobrenome;
-}
-
-function isEven(numero) {
-  var modulo = numero % 2;
-  if(modulo === 0) {
-    return true;
-  } else {
-    return false;
-  }
-}
-
-function tipoDeDado(dado) {
-  return typeof dado;
-}
-
-addEventListener('click', function(){
-  console.log('Gregolly França');
-});
